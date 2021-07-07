@@ -1,8 +1,0 @@
-name: ${project.name}
-version: ${project.version}
-main: ${main.class}
-api-version: 1.17
-softdepend: [ PlaceholderAPI, SlimeWorldManager, Vault ]
-authors: [ byteful ]
-description: ${project.description}
-website: ${project.url}
