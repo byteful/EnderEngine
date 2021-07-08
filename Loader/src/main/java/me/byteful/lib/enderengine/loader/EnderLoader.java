@@ -37,7 +37,7 @@ public final class EnderLoader {
    *
    * @param version    the version of EnderEngine to load
    * @param enginesDir the folder in which you want to store all instances of EnderEngine
-   * @param loader     the classloader to inject EnderEngine into
+   * @param loader     the classloader to inject EnderEngine into (recommended to use class loader of plugin/module)
    */
   public static void load(@NotNull String version, @NotNull final File enginesDir, @NotNull final URLClassLoader loader) throws EngineLoadException {
     version = version.toLowerCase(Locale.ROOT);
